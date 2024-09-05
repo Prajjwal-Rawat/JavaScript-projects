@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+body{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    color: #fff;
+    margin: auto 0;
+    padding: 25px 35px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.5), -3px -2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-bar input{
+    border: 0;
+    outline: 0;
+    text-transform: capitalize;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search-bar button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-bar button img{
+    width: 25px;
+    height: 25px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather-detail h1{
+    font-size: 50px;
+}
+
+.weather-detail h2{
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.weather-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.humidity{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 35px;
+    width: 170px;
+    border-radius: 20px;
+}
+.windSpeed{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    width: 170px;
+    margin: 0 5px;
+    border-radius: 20px;
+}
+
+.windSpeed h3{
+    font-size: 15px;
+}
+
+.humidity h3{
+    font-size: 15px;
+}
+
+.humidity p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.humidity img{
+    width: 50px;
+    margin-bottom: 10px ;
+}
+
+.windSpeed img{
+    width: 50px;
+    margin-bottom: 10px ;
+}
+
+.loader img{
+    width: 60px;
+    mix-blend-mode: multiply;
+    height: 60px;
+}
