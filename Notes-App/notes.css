@@ -51,7 +51,7 @@
     max-height: 250px;
     background: #fff;
     color: #333;
-    padding: 20px;
+    padding: 36px 39px 28px 27px;
     margin: 20px 0;
     outline: none;
     border-radius: 5px;
@@ -61,5 +61,6 @@
 .notes-container img{
     width: 30px;
     height: 20px;
-    translate: -50px -28px;
+    translate: -53px -96px;
+    cursor: pointer;
 }
