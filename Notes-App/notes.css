@@ -41,9 +41,11 @@
     margin: 30px 0 20px;
     cursor: pointer; 
 }
+.notes-container{
+    position: relative;
+}
 
 #input-notes{
-    position: relative;
     width: 100%;
     max-width: 700px;
     max-height: 250px;
@@ -54,4 +56,10 @@
     outline: none;
     border-radius: 5px;
     border: 0;
+}
+
+.notes-container img{
+    width: 30px;
+    height: 20px;
+    translate: -50px -28px;
 }
